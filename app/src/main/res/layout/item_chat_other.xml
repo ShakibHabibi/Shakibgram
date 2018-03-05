@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:id="@+id/date_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:visibility="gone">
+
+    <TextView
+      android:id="@+id/date_divider_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_centerInParent="true"
+      android:textColor="@color/white"
+      android:textSize="12sp" />
+
+    <View
+      android:layout_width="wrap_content"
+      android:layout_height="1dp"
+      android:layout_centerVertical="true"
+      android:layout_toLeftOf="@id/date_divider_tv"
+      android:layout_toStartOf="@id/date_divider_tv"
+      android:background="@color/white" />
+
+    <View
+      android:layout_width="wrap_content"
+      android:layout_height="1dp"
+      android:layout_centerVertical="true"
+      android:layout_toEndOf="@id/date_divider_tv"
+      android:layout_toRightOf="@id/date_divider_tv"
+      android:background="@color/white" />
+  </RelativeLayout>
+  <me.himanshusoni.chatmessageview.ChatMessageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="68dp"
+    android:layout_marginRight="68dp"
+    android:layout_gravity="right"
+    android:padding="4dp"
+    android:elevation="3dp"
+    app:cmv_arrowGravity="end"
+    app:cmv_arrowMargin="10dp"
+    app:cmv_arrowPosition="left"
+    app:cmv_backgroundColor="@color/white"
+    app:cmv_backgroundColorPressed="@color/white"
+    app:cmv_contentPadding="0dp"
+    app:cmv_cornerRadius="4dp"
+    app:cmv_showArrow="true">
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="right"
+      android:orientation="vertical">
+      <com.vanniktech.emoji.EmojiTextView
+        android:id="@+id/chat_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:autoLink="web"
+        android:textColor="@color/black"
+        android:textDirection="anyRtl"
+        android:textSize="12sp"
+        app:emojiSize="20sp"
+        tools:text="شکیب یکی از بهترین آدم های دنیا هست . نمونه او در کره زمین یافت می نشود او را ارج نهید و در مجالس در بالا دست بنشانید باشد که رستگار شوید" />
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+          android:id="@+id/chat_time_tv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="left"
+          android:paddingBottom="2dp"
+          android:paddingStart="4dp"
+          android:paddingEnd="8dp"
+          android:paddingLeft="4dp"
+          android:paddingRight="8dp"
+          android:gravity="right"
+          android:textSize="12sp"
+          tools:text="12:10" />
+      </LinearLayout>
+    </LinearLayout>
+  </me.himanshusoni.chatmessageview.ChatMessageView>
+</LinearLayout>

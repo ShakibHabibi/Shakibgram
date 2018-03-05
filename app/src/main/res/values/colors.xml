@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#84c225</color>
+  <color name="colorPrimaryDark">#72a81f</color>
+  <color name="colorAccent">#72a81f</color>
+  <color name="colorSplash">#29323c</color>
+  <color name="white">#ffffff</color>
+  <color name="black">#000000</color>
+  <color name="red">#d60000</color>
+  <color name="transparent">#00000000</color>
+  <color name="black_54">#9E9E9E</color>
+  <color name="black_12">#E0E0E0</color>
+  <color name="chat_others">#FFEAF4E9</color>
+  <color name="chat_me">#FFC6E8C5</color>
+  <color name="black_87">#757575</color>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+  <string name="app_name">Shakibgram</string>
+  <string name="login">ورود</string>
+  <string name="signup">ثبت نام</string>
+  <string name="welcome">به شکیب گرام خوش آمدید</string>
+  <string name="user_name">نام کاربری</string>
+  <string name="password">رمز عبور</string>
+  <string name="name">نام مستعار</string>
+  <string name="email">ایمیل</string>
+  <string name="re_password">تکرار رمز عبور</string>
+  <string name="waiting">لطفا منتطر بمانید</string>
+  <string name="check_your_internet_connection">لطفا اینترنت خود را بررسی کنید</string>
+  <string name="please_enter_user_name">لطفا نام کاربری خود را وارد کنید</string>
+  <string name="please_enter_password">لطفا رمز عبور را وارد کنید</string>
+  <string name="empty" />
+  <string name="register">ثبت</string>
+  <string name="please_enter_name">لطفا نام مستعار را وارد کنید</string>
+  <string name="please_enter_email">لطفا آدرس ایمیل را وارد کنید</string>
+  <string name="password_are_not_same">رمز های عبور یکی نیستند</string>
+  <string name="please_enter_valid_email">لطفا ایمیل معتبر وارد کنید</string>
+  <string name="forget_password">رمز عبور را فراموش کرده ام!</string>
+  <string name="authentication">تایید هویت</string>
+  <string name="done">تایید</string>
+  <string name="code">کد</string>
+  <string name="please_enter_code">لطفا کد را وارد کنید</string>
+  <string name="recover_password">بازیابی رمز عبور</string>
+  <string name="recovery">بازیابی</string>
+  <string name="change_pass">تغییر رمز</string>
+  <string name="change">تغییر</string>
+  <string name="contacts">مخاطبان</string>
+  <string name="add_contact">افزودن مخاطب</string>
+  <string name="app_name_p">شکیب گرام</string>
+  <string name="search">جستجو</string>
+  <string name="write_here">اینجا بنویسید</string>
+</resources>

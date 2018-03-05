@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="ir.shkbhbb.shakibgram.ui.activity.AddContactActivity">
+
+  <FrameLayout
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    tools:ignore="UselessParent">
+    <ImageView
+      android:id="@+id/back_img"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_gravity="right"
+      android:paddingLeft="16dp"
+      android:paddingRight="16dp"
+      android:src="@drawable/ic_arrow_forward_white"
+      tools:ignore="ContentDescription" />
+    <ImageView
+      android:id="@+id/add_contact_img"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_gravity="left"
+      android:paddingLeft="16dp"
+      android:paddingRight="16dp"
+      android:src="@drawable/ic_done"
+      tools:ignore="ContentDescription" />
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:text="@string/add_contact"
+      android:textColor="@color/white"
+      android:textSize="16sp" />
+  </FrameLayout>
+  <EditText
+    android:id="@+id/user_name_edt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:paddingBottom="8dp"
+    android:background="@drawable/edit_text_state_background"
+    android:hint="@string/user_name"
+    android:textSize="16sp" />
+  <requestFocus />
+  <TextView
+    android:id="@+id/user_name_error_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:gravity="right"
+    android:textColor="@color/red"
+    android:textSize="14sp"
+    android:visibility="gone" />
+</LinearLayout>
